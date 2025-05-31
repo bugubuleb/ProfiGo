@@ -463,7 +463,7 @@ async def myresults(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Основная функция
 def main():
-    app = Application.builder().token("8002126599:AAF30u86GTRehtsqndQ_flLyBf8v2qvs6bQ").build()
+    app = Application.builder().token("").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("restart", restart))
